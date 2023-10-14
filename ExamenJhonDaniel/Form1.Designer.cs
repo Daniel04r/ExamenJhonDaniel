@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             txtId = new TextBox();
-            txtnombre = new TextBox();
+            txtNombre = new TextBox();
             label1 = new Label();
             label2 = new Label();
             btnInsertar = new Button();
@@ -43,13 +43,13 @@
             txtId.TabIndex = 0;
             txtId.TextChanged += textBox1_TextChanged;
             // 
-            // txtnombre
+            // txtNombre
             // 
-            txtnombre.Location = new Point(451, 165);
-            txtnombre.Name = "txtnombre";
-            txtnombre.Size = new Size(125, 27);
-            txtnombre.TabIndex = 1;
-            txtnombre.TextChanged += textBox2_TextChanged;
+            txtNombre.Location = new Point(451, 165);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(125, 27);
+            txtNombre.TabIndex = 1;
+            txtNombre.TextChanged += textBox2_TextChanged;
             // 
             // label1
             // 
@@ -69,7 +69,7 @@
             label2.Size = new Size(64, 20);
             label2.TabIndex = 3;
             label2.Text = "Nombre";
-            label2.Click += label2_Click;
+            label2.Click += this.label2_Click;
             // 
             // btnInsertar
             // 
@@ -89,7 +89,7 @@
             Controls.Add(btnInsertar);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(txtnombre);
+            Controls.Add(txtNombre);
             Controls.Add(txtId);
             Name = "Form1";
             Text = "Form1";
@@ -100,7 +100,7 @@
         #endregion
 
         private TextBox txtId;
-        private TextBox txtnombre;
+        private TextBox txtNombre;
         private Label label1;
         private Label label2;
         private Button btnInsertar;

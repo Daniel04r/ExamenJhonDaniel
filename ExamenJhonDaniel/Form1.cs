@@ -7,7 +7,7 @@ namespace ExamenJhonDaniel
 {
     using System.CodeDom;
     using System.Data.SqlClient;
-  
+
 
     public partial class Form1 : Form
     {
@@ -25,7 +25,7 @@ namespace ExamenJhonDaniel
 
         private void label1_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -71,13 +71,13 @@ namespace ExamenJhonDaniel
                 }
 
                 {
-                    finally
+
                     conexion.Close();
 
                 }
             }
-
-            private void label2_Click(object sender, EventArgs e)
+        }
+        private static void label2_Click(object sender, EventArgs e)
         {
 
         }
