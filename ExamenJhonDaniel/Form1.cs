@@ -54,7 +54,7 @@ namespace ExamenJhonDaniel
                     int NFilas = comando.ExecuteNonQuery();
                     if (NFilas > 0)
                     {
-                        MessageBox.Show("Se logro exitosamente.");
+                        MessageBox.Show("Se logro Jhon Daniel.");
 
                         txtId.Clear();
                         txtNombre.Clear();
@@ -66,7 +66,7 @@ namespace ExamenJhonDaniel
 
 
                 {
-                    MessageBox.Show("FALLO LA CONSULTA: " + ex);
+                    MessageBox.Show("Manin eso fallo: " + ex);
 
                 }
 
